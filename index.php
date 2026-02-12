@@ -764,7 +764,7 @@
 
     <h1 class="hero-title">
       AI記事、<br>
-      <span class="highlight">1本1,000円</span>から。
+      <span class="highlight">1本500円</span>から。
     </h1>
 
     <p class="hero-subtitle">
@@ -780,7 +780,7 @@
       </div>
       <div class="price-bar">
         <div class="price-bar-ours"><span>当社</span></div>
-        <p class="highlight">¥1,000〜</p>
+        <p class="highlight">¥500〜</p>
       </div>
     </div>
 
@@ -883,15 +883,15 @@
         <div class="pricing-articles">500+<span>記事</span></div>
         <p class="pricing-note">500記事以上も対応可</p>
         <div class="pricing-price">
-          <div style="text-decoration: line-through; color: #666; font-size: 1.2rem; margin-bottom: 0.3rem;">¥2,000/記事</div>
+          <div style="text-decoration: line-through; color: #666; font-size: 1.2rem; margin-bottom: 0.3rem;">¥1,000/記事</div>
           <div style="color: #ff6b6b; font-size: 0.85rem; font-weight: bold; margin-bottom: 0.5rem;">↓ <?php echo date('n'); ?>月限定50%OFF</div>
-          <span class="amount">¥1,000</span>
+          <span class="amount">¥500</span>
           <span class="unit">/記事</span>
         </div>
         <div class="pricing-total">
           <p>お支払い総額</p>
-          <p><span style="text-decoration: line-through; color: #666; font-size: 1rem; margin-right: 0.5rem;">¥1,000,000〜</span></p>
-          <p>¥500,000〜<span class="tax">（税別）</span></p>
+          <p><span style="text-decoration: line-through; color: #666; font-size: 1rem; margin-right: 0.5rem;">¥500,000〜</span></p>
+          <p>¥250,000〜<span class="tax">（税別）</span></p>
         </div>
         <ul class="pricing-features">
           <li>✓ WordPress自動入稿</li>
@@ -908,15 +908,15 @@
         <div class="pricing-badge-spacer"></div>
         <div class="pricing-articles">300<span>記事</span></div>
         <div class="pricing-price">
-          <div style="text-decoration: line-through; color: #666; font-size: 1.2rem; margin-bottom: 0.3rem;">¥2,800/記事</div>
+          <div style="text-decoration: line-through; color: #666; font-size: 1.2rem; margin-bottom: 0.3rem;">¥1,400/記事</div>
           <div style="color: #ff6b6b; font-size: 0.85rem; font-weight: bold; margin-bottom: 0.5rem;">↓ <?php echo date('n'); ?>月限定50%OFF</div>
-          <span class="amount">¥1,400</span>
+          <span class="amount">¥700</span>
           <span class="unit">/記事</span>
         </div>
         <div class="pricing-total">
           <p>お支払い総額</p>
-          <p><span style="text-decoration: line-through; color: #666; font-size: 1rem; margin-right: 0.5rem;">¥840,000</span></p>
-          <p>¥420,000<span class="tax">（税別）</span></p>
+          <p><span style="text-decoration: line-through; color: #666; font-size: 1rem; margin-right: 0.5rem;">¥420,000</span></p>
+          <p>¥210,000<span class="tax">（税別）</span></p>
         </div>
         <ul class="pricing-features">
           <li>✓ WordPress自動入稿</li>
@@ -933,15 +933,15 @@
         <div class="pricing-badge">お試し</div>
         <div class="pricing-articles">100<span>記事</span></div>
         <div class="pricing-price">
-          <div style="text-decoration: line-through; color: #666; font-size: 1.2rem; margin-bottom: 0.3rem;">¥4,000/記事</div>
+          <div style="text-decoration: line-through; color: #666; font-size: 1.2rem; margin-bottom: 0.3rem;">¥2,000/記事</div>
           <div style="color: #ff6b6b; font-size: 0.85rem; font-weight: bold; margin-bottom: 0.5rem;">↓ <?php echo date('n'); ?>月限定50%OFF</div>
-          <span class="amount">¥2,000</span>
+          <span class="amount">¥1,000</span>
           <span class="unit">/記事</span>
         </div>
         <div class="pricing-total">
           <p>お支払い総額</p>
-          <p><span style="text-decoration: line-through; color: #666; font-size: 1rem; margin-right: 0.5rem;">¥400,000</span></p>
-          <p>¥200,000<span class="tax">（税別）</span></p>
+          <p><span style="text-decoration: line-through; color: #666; font-size: 1rem; margin-right: 0.5rem;">¥200,000</span></p>
+          <p>¥100,000<span class="tax">（税別）</span></p>
         </div>
         <ul class="pricing-features">
           <li>✓ WordPress自動入稿</li>

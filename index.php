@@ -911,7 +911,7 @@
   <!-- Pricing Section -->
   <section id="pricing" class="section pricing-section">
     <h2 class="section-title">料金プラン</h2>
-    <p class="section-subtitle" style="display: inline-block; background: linear-gradient(90deg, #ff6b6b, #ff8e53); color: #fff; font-weight: bold; font-size: 1.3rem; padding: 1rem 2.5rem; border-radius: 30px; box-shadow: 0 4px 20px rgba(255,107,107,0.5); margin-bottom: 2rem;">🎉 <?php echo date('n'); ?>月限定モニター価格で50%OFF！</p>
+    <p class="section-subtitle" style="display: block; background: linear-gradient(90deg, #ff6b6b, #ff8e53); color: #fff; font-weight: bold; font-size: 1.3rem; padding: 1rem 2.5rem; border-radius: 30px; box-shadow: 0 4px 20px rgba(255,107,107,0.5); margin: 0 auto 2rem auto; width: fit-content;">🎉 <?php echo date('n'); ?>月限定モニター価格で50%OFF！</p>
 
     <div class="pricing-grid">
       <!-- 500+ Plan -->

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI記事制作サービス｜1本500円から</title>
+  <title>おみくじSEO｜AI記事制作サービス｜1本1,000円から</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
@@ -791,6 +791,10 @@
     <div class="hero-bg-1"></div>
     <div class="hero-bg-2"></div>
 
+    <div style="animation: fadeInUp 0.4s ease-out; margin-bottom: 1rem;">
+      <h2 style="font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 900; background: linear-gradient(90deg, #4ecdc4, #44a08d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.05em;">おみくじSEO</h2>
+    </div>
+
     <div class="badge-urgent">
       <span class="icon">🔥</span>
       毎月限定10社 ｜ 前回即完売→価格改定して再開
@@ -1135,7 +1139,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 AI記事制作サービス</p>
+    <p>© 2025 おみくじSEO</p>
   </footer>
 
 </body>

@@ -163,12 +163,13 @@
       animation: fadeInScale 0.8s ease-out 0.6s both;
       display: flex;
       align-items: flex-end;
-      gap: 1rem;
+      gap: 2rem;
       margin-bottom: 3rem;
-      padding: 1.5rem;
-      background: rgba(255,255,255,0.03);
-      border-radius: 16px;
-      border: 1px solid rgba(255,255,255,0.05);
+      padding: 2.5rem;
+      background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+      border-radius: 24px;
+      border: 2px solid rgba(255,255,255,0.1);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
     }
 
     .price-bar {
@@ -176,46 +177,79 @@
     }
 
     .price-bar-market {
-      width: 60px;
-      height: 150px;
-      background: linear-gradient(180deg, #666 0%, #333 100%);
-      border-radius: 8px 8px 0 0;
+      width: 100px;
+      height: 220px;
+      background: linear-gradient(180deg, #888 0%, #555 50%, #333 100%);
+      border-radius: 12px 12px 0 0;
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      padding-top: 0.5rem;
+      padding-top: 1rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .price-bar-market::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 40%;
+      background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, transparent 100%);
     }
 
     .price-bar-market span {
-      font-size: 0.7rem;
-      color: #aaa;
+      font-size: 1rem;
+      color: #ddd;
+      font-weight: bold;
+      position: relative;
+      z-index: 1;
     }
 
     .price-bar-ours {
-      width: 60px;
-      height: 30px;
+      width: 100px;
+      height: 44px;
       background: linear-gradient(180deg, #4ecdc4 0%, #44a08d 100%);
-      border-radius: 8px 8px 0 0;
-      box-shadow: 0 0 20px rgba(78,205,196,0.5);
+      border-radius: 12px 12px 0 0;
+      box-shadow: 0 0 30px rgba(78,205,196,0.6), 0 4px 16px rgba(0,0,0,0.4);
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .price-bar-ours::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50%;
+      background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 100%);
     }
 
     .price-bar-ours span {
-      font-size: 0.6rem;
+      font-size: 0.9rem;
       font-weight: bold;
+      position: relative;
+      z-index: 1;
     }
 
     .price-bar p {
-      font-size: 0.8rem;
-      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      margin-top: 0.75rem;
       color: #888;
+      font-weight: 600;
     }
 
     .price-bar p.highlight {
       color: #4ecdc4;
       font-weight: bold;
+      font-size: 1.2rem;
+      text-shadow: 0 0 10px rgba(78,205,196,0.5);
     }
 
     .cta-button {
@@ -780,7 +814,7 @@
       </div>
       <div class="price-bar">
         <div class="price-bar-ours"><span>当社</span></div>
-        <p class="highlight">¥500〜</p>
+        <p class="highlight">¥1,000〜</p>
       </div>
     </div>
 

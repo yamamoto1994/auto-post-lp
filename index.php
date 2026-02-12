@@ -804,7 +804,7 @@
     <p class="hero-subtitle">
       <span style="display: inline-block; background: linear-gradient(90deg, #ff6b6b, #ff8e53); color: #fff; padding: 0.8rem 2rem; border-radius: 30px; margin-bottom: 0.8rem; font-size: 1.1rem; font-weight: bold; box-shadow: 0 4px 20px rgba(255,107,107,0.5);">🎉 <?php echo date('n'); ?>月限定モニター価格で50%OFF</span><br>
       相場5,000円〜15,000円のAI記事制作を<br>
-      <strong>最大1/10以下の価格</strong>で。
+      <strong>最大1/5以下の価格</strong>で。
     </p>
 
     <div class="price-compare">
